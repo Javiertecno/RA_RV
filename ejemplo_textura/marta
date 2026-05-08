@@ -5,8 +5,8 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="azulejo" src="suelo_piedra.jpg">
-        <img id="fondo" src="fondo.jpg">
+        <img id="azulejo" src="suelo_piedra.jpg.jpeg">
+        <img id="fondo" src="fondo.jpg.jpeg">
       </a-assets>
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-box position="-3 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
@@ -15,7 +15,7 @@
       <a-cone position="0 4 -3" color="red"></a-cone>
       <a-triangle position="-2 2,5 -2" color="yellow"></a-triangle>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" src="#azulejo"></a-plane>
-      <a-sky src="suelo_piedra.jpg"></a-sky>
+      <a-sky src="suelo_piedra.jpg.jpeg"></a-sky>
       <a-sky src="#fondo"></a-sky>
     </a-scene>
   </body>
