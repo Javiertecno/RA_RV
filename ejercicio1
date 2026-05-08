@@ -17,7 +17,9 @@
 
         </a-plane>
 
-       <a-sky> src = “<suelo class="jpg"></suelo>” </a-sky>
+       <a-sky> 
+        
+       </a-sky>
        
 
     </a-scene>
