@@ -12,7 +12,6 @@
       <a-sky hide-on-enter-ar color="#ECECEC"></a-sky>
       <a-camera
         position="5 1.6 0"    wasd-controls="aceleration: 10"   look-controls
-
     </a-camera>
     </a-scene>
   </body>
