@@ -11,7 +11,7 @@
       <a-plane position="0 0 -2" rotation="-90 0 0" width="2" height="2" color="#7BC8A4"></a-plane>
       <a-sky hide-on-enter-ar color="#ECECEC"></a-sky>
       <a-camera
-        position="5 1.6 0"    wasd-controls     look-controls
+        position="5 1.6 0"    wasd-controls="aceleration: 10"   look-controls
 
     </a-camera>
     </a-scene>
