@@ -10,9 +10,17 @@
       <a-cylinder position="0.5 0.25 -1.5" radius="0.25" height="0.5" color="#FFC65D"></a-cylinder>
       <a-plane position="0 0 -2" rotation="-90 0 0" width="2" height="2" color="#7BC8A4"></a-plane>
       <a-sky hide-on-enter-ar color="#ECECEC"></a-sky>
-      <a-camera
-        position="5 1.6 0"    wasd-controls="aceleration: 10"   look-controls
-    </a-camera>
+     <a-entity> position="5 1.6 0" rotation="0 0 0">
+      <a-camera    wasd-controls="aceleration: 100;  fly: true"  look-controls 
+     </a-camera>
+
+     <a-entity> oculus-touch-controls=" hand right  </a-entity> 
+      <a-entity oculus-touch-controls>=" hand left </a-entity> 
+
+     </a-entity>
+
+
+    
     </a-scene>
   </body>
 </html>
