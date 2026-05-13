@@ -12,7 +12,7 @@
 
       <a-sphere position="2 1.5 -6" radius="0.15" src="Mercurio.jpg"></a-sphere>
 
-      <a-sphere position="3 1.5 -6" radius="0.25" src="Venus.png"></a-sphere>
+      
 
       <a-sphere position="4.2 1.5 -6" radius="0.27" src="Tierra.jpeg"></a-sphere>
 
