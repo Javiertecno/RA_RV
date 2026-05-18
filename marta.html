@@ -8,7 +8,11 @@
         <img id="azulejo" src="suelo_piedra.jpeg">
         <img id="fondo" src="biblio.jpeg">
       </a-assets>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9">
+         animation="startEvents: click; property: position; to: 3 1.25 -5;
+                   dir: alternate; loop: true">
+
+      </a-box>
       <a-box position="-3 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
@@ -17,6 +21,12 @@
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" src="#azulejo"></a-plane>
       <a-sky src="suelo_piedra.jpeg"></a-sky>
       <a-sky src="#fondo"></a-sky>
+      <a-entity position="0 0 0">
+        <a-entity camera position="0 1.6 0" look-controls wasd-controls></a-entity>
+        <a-entity cursor="rayOrigin:mouse"></a-entity>
+        <a-entity laser-controls="hand: right"></a-entity>
+      </a-entity>
+
     </a-scene>
   </body>
 </html>
